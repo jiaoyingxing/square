@@ -3,7 +3,7 @@
   "name": "Square",
   "version": "0.1.0",
   "minAppVersion": "1.8.0",
-  "description": "A lightweight habit tracker for Obsidian with built-in templates, project notes, and overview charts.",
+  "description": "A lightweight habit tracker for Obsidian that keeps check-ins inside plain Markdown notes and adds quick templates, charts, and future planning.",
   "author": "Jiao Yingxing",
   "isDesktopOnly": false
 }
