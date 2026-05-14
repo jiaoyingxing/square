@@ -1,0 +1,14 @@
+data.json
+.env
+.env.*
+node_modules/
+src/
+scripts/
+tests/
+核心文档/
+开发日志/
+专题文档/
+临时文档/
+文档归档/
+.tmp/
+*.log
