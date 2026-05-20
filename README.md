@@ -4,76 +4,61 @@
 
 # Square
 
-Square is a visual check-in layer for Obsidian.
+> Turn daily actions in Obsidian into small blocks you can see and tap.
 
-You tap small blocks every day. The actual records still stay in Markdown.
+Many people keep goals, reviews, journals, and project notes in Obsidian, but still use another app when it is time to check in.
 
-If your goals, habits, routines, and reviews already live in Obsidian, but daily check-ins still happen in another app, Square brings that loop back into your vault: what to do today, what you just recorded, and how things have been going recently.
+Square is built for that gap. You do not have to leave your vault, and you do not have to move habit records into another system. The things you want to continue appear as small blocks on a lightweight board. You open one, record what happened, and the result still goes back to ordinary Markdown notes.
 
-It is not a reminder app, a habit community, or a new database. It is a lightweight operating layer: projects become small blocks, check-ins are written back to project notes, and charts are there when you want to review.
+Square is not mainly about reminders, pressure, points, or a habit community. It is closer to a light operating surface on top of Obsidian: a way to make your daily actions easier to see, easier to record, and easier to review without pulling them away from your notes.
 
-## What Square Is
+## ✨ What It Solves
 
-Square organizes check-ins in Obsidian through a few clear layers:
+A task list is useful for planning, but it is not always the best shape for repeated daily records.
 
-- Main board: open Square and see the projects that need attention today.
-- Quick record modal: record text, date, count, fixed fields, and attachments.
-- Markdown project notes: each project has its own note, so history stays readable, portable, and easy to inspect.
-- Built-in templates: start from common check-in patterns such as single check-ins, repeated counts, target tracking, heatmaps, and trend-style records.
-- Overview charts: use week, month, and ranking views when you want to look back.
+A typical habit app is quick to tap, but it often moves your history into another account, another database, and another interface.
 
-So the core idea is not “another habit app”. Square adds a more visual and more direct check-in layer to Obsidian.
+Square sits between those two. It keeps the file-based, long-term control of Obsidian, while adding a more visual daily entry point. You do not have to open a specific note and find the right place to write. You also do not have to manage a heavy habit dashboard. Open Square, see the blocks, record once, and move on.
 
-## How You Use It
+## 🧩 What It Really Is
 
-1. Create a project in plugin settings, such as reading, exercise, water, writing, or vocabulary.
-2. Choose a template that matches the project: single completion, repeated counts, target progress, or trend records.
-3. Return to the Square board. The project appears as a small block.
-4. When it is time to record, open the block and add text, date, count, or fixed fields.
-5. The check-in is saved to the matching Markdown project note.
-6. When you want to review, open the week, month, or ranking view.
-7. If a future date should show only selected projects, arrange that from the month view.
+Square is not “another habit app”. It is a visual layer for Markdown project notes.
 
-The daily path can stay short: open Square, see the blocks, record, leave.
+Each project is still a note. The small block is just the daily entry point for that note. You interact with the block, but the history accumulates in the project note. That means check-ins are not trapped inside a closed app state. They can continue to live beside your journal, reviews, project materials, and knowledge base.
 
-## How It Is Different From A Typical Habit App
+Templates are not meant to turn Square into a configuration maze. They help each project start with the right recording shape. Some projects only need completion. Some need counts. Some need target progress. Some make more sense as long-term trends. Square tries to make that choice early, so the daily action can stay light.
 
-Most habit apps are built around reminders, streaks, social pressure, points, or cloud accounts. Square is aimed at a different use case.
+## 🟩 What Daily Use Feels Like
 
-Square focuses on four things:
+You can think of Square as a small today-board inside Obsidian.
 
-- Your records stay in your vault: check-ins are saved in Obsidian Markdown notes instead of being locked inside another app.
-- The daily action stays light: the main board shows the blocks you need today, not a heavy management backend.
-- Projects can record more than a checkmark: some need completion, some need counts, some need targets, and some make more sense as trends.
-- Review does not get in the way of recording: charts are for looking back, while the main board stays focused on today.
+Open Square in the morning, or whenever you need to record something, and you see a group of project blocks. Each block represents something you are continuing or observing: reading, exercise, water, writing, vocabulary, recovery, sleep, piano practice, or any small routine that deserves a trace.
 
-If you need strong reminders, social check-ins, cross-platform cloud sync, or a full habit community, Square is not that kind of product.
+Open a block and you get a quick record modal. For simple projects, it can be close to a single confirmation. When you need more detail, you can add text, adjust the date, change the count, fill fixed fields, or attach something. After saving, the record is written back to the matching Markdown project note.
 
-If you want check-ins to stay inside Obsidian and feel more visual than a normal task list, Square is much closer to that need.
+When you want to look back, open the week, month, or ranking view. Charts are not the main workload. They are a second layer for review.
 
-## Main Things You Can Do
+## 🌱 How It Differs From A Typical Habit App
 
-- Create and edit Square projects.
-- Start from built-in templates for common check-in styles.
-- Record quickly from the small-block board.
-- Add text, dates, counts, fixed fields, and attachments.
-- Store each project as a Markdown note.
-- Review progress with week, month, and ranking views.
-- Arrange future-day project visibility from the month view.
-- Archive projects that are paused or finished.
-- Use Square on both desktop and mobile Obsidian.
+Most habit apps put streaks at the center: reminders, make-up check-ins, consecutive days, leaderboards, badges, social pressure, and cloud sync.
 
-## Who It Is For
+Square centers something else: can your daily records stay naturally inside Obsidian?
 
-Square is a better fit if you:
+That changes the product shape. The main board stays light instead of becoming a management backend. A record can be more than a checkmark: it can include counts, text, fixed fields, and attachments. Overview charts are for review, not for taking over the daily board. Archiving simply moves projects out of the active daily view; it does not become a separate management product.
 
-- already keep daily notes or project records in Obsidian
-- want a check-in surface that feels more direct than a task list
-- do not want another separate database just for habits
-- want records to remain readable Markdown over time
-- need to record not only whether something happened, but also how much or what happened
+If you need strong reminders, social check-ins, or a cloud habit community, Square is not that kind of product.
 
-## License And Versions
+If what you want is “my check-ins should belong to my vault”, Square is much closer to that idea.
+
+## 🧭 Who It Is For
+
+Square is a better fit if your daily records, goals, or project reviews already live in Obsidian.
+
+If a task list feels too cold, but a separate habit app feels too far away from your notes, Square offers a middle shape: more visual than a task list, but more file-friendly than a standalone habit tracker.
+
+It is especially useful when you want to record not only whether something happened, but also how much happened, what you noticed, or what material belonged with that action.
+
+## 🔐 License And Storage
 
 Square is proprietary software.
 
@@ -81,19 +66,13 @@ The free state is intended for trying the core flow with a small number of proje
 
 License keys are stored through Obsidian's built-in secret storage and verified locally through signature validation. Square does not require a separate server-side account system for normal local use.
 
-To get a license key, search for `焦应行` on Xiaohongshu.
-
-## Privacy And Storage
-
-- Project records are stored as Markdown notes in your Obsidian vault.
-- Plugin settings stay in local Obsidian plugin data.
-- The license key is stored through Obsidian SecretStorage.
-- Square currently contains no client-side telemetry.
-- Attachments are saved in your vault according to the plugin flow and your vault structure.
+Project records are stored as Markdown notes in your Obsidian vault. Plugin settings stay in local Obsidian plugin data. Square currently contains no client-side telemetry.
 
 Do not publish your `.obsidian/plugins/square/data.json`. It may contain local settings, license state, and legacy configuration data.
 
-## Installation
+To get a license key, search for `焦应行` on Xiaohongshu.
+
+## 📦 Installation
 
 Square is distributed through GitHub Releases.
 
@@ -132,8 +111,6 @@ Do not use GitHub's auto-generated source archive as the install package. Use th
 ## Current Public Build
 
 The current public version is `0.1.0`.
-
-This first public build focuses on the main daily loop: create projects, choose templates, check in quickly, review progress, and keep records in Markdown notes.
 
 See the [GitHub Releases](https://github.com/jiaoyingxing/square/releases) page for published builds.
 
