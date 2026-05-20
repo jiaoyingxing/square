@@ -1,6 +1,9 @@
 data.json
 .env
 .env.*
+AGENTS.md
+RELEASE_NOTES.md
+RELEASE_NOTES-zh.md
 node_modules/
 src/
 scripts/

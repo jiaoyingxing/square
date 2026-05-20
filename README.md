@@ -1,53 +1,127 @@
+<p align="center">
+  <strong>Language:</strong> <strong>English</strong> · <a href="./README-zh.md"><strong>简体中文</strong></a>
+</p>
+
 # Square
 
-[中文说明](README-zh.md) | [Release notes](RELEASE_NOTES.md)
+Square is a lightweight visual habit tracker for Obsidian.
 
-Square is a lightweight habit tracker for Obsidian.
+It is built for small daily things you want to actually see, tap, and keep inside your vault: habits, repeated actions, count-based goals, long-term targets, and simple routines.
 
-If you want daily check-ins, recurring projects, and target tracking to stay inside plain Markdown notes instead of a separate system, Square gives you a fast visual board: see what needs attention today, check in with one click, and review your progress later with week, month, and ranking views.
+Instead of turning check-ins into a separate database or a heavy dashboard, Square gives you a small-block board inside Obsidian. Open it, see what is on today, record quickly, and review your progress later.
 
-## Highlights
+Your project records still live in plain Markdown notes, so they stay readable, portable, and close to the rest of your knowledge base.
 
-- Start with built-in templates for single check-ins, repeated counts, target tracking, heatmaps, and trends.
-- Record text, date, count, fixed fields, and attachments from one quick entry modal.
-- Open week, month, and ranking overviews in the main view or sidebar.
-- Plan which projects should appear on future dates from the month view.
-- Keep each project as a plain Markdown note, so records stay readable and portable.
-- Archive completed or paused projects without losing them.
-- Works on both desktop and mobile Obsidian.
+## Why Square
 
-## Install
+Many habit tools are good at reminding you, but they often pull your records into another system.
 
-Square is proprietary software. Under the current Obsidian Community Plugins rules, non-open-source plugins cannot be listed in the official plugin store, so Square is distributed through GitHub Releases.
+Square takes a smaller path:
 
-Recommended: install with BRAT.
+- keep the daily action visible
+- make recording fast enough to use every day
+- keep the underlying records in Markdown
+- use charts only when you want to look back
 
-1. Install the `BRAT` plugin from Obsidian's community plugins.
+The goal is not to manage your life from a giant control panel. It is to make small repeated actions easier to continue.
+
+## What It Feels Like
+
+### A board made of small blocks
+
+Each project appears as a block on the main board. You can check in from the board, open the project note, archive paused items, and keep today's view focused.
+
+### A quick record modal
+
+A check-in can include record text, date, count, fixed fields, and attachments. For simple projects, the flow can stay almost as quick as tapping a block.
+
+### Built-in project templates
+
+Square includes templates for common check-in styles, including single check-ins, repeated counts, target tracking, heatmaps, and trend-style projects. You can start without maintaining a separate template folder.
+
+### Overview when you need it
+
+Week, month, and ranking views help you look back at recent progress. The overview can also be opened in the sidebar when you want a compact reference view.
+
+### Future planning from the month view
+
+For future dates, you can arrange which projects should appear on that day. If a future day has a plan, that day can show only the planned project subset instead of every active project.
+
+## Main Things You Can Do
+
+- Create and edit Square projects from plugin settings.
+- Use built-in templates to start faster.
+- Check in from a visual small-block board.
+- Record text, dates, counts, fixed fields, and attachments.
+- Keep project data in Markdown notes.
+- Review week, month, and ranking overviews.
+- Plan future-day project visibility from the month view.
+- Archive projects that are paused or no longer active.
+- Use Square on both desktop and mobile Obsidian.
+
+## License And Versions
+
+Square is proprietary software.
+
+The free state is intended for trying the core flow with a small number of projects. A license key unlocks broader project use.
+
+License keys are stored through Obsidian's built-in secret storage and verified locally through signature validation. Square does not require a separate server-side account system for normal local use.
+
+To get a license key, search for `焦应行` on Xiaohongshu.
+
+## Privacy And Storage
+
+- Project records are stored as Markdown notes in your Obsidian vault.
+- Plugin settings stay in local Obsidian plugin data.
+- The license key is stored through Obsidian SecretStorage.
+- Square currently contains no client-side telemetry.
+- Attachments are saved in your vault according to the plugin flow and your vault structure.
+
+Do not publish your `.obsidian/plugins/square/data.json`. It may contain local settings, license state, and legacy configuration data.
+
+## Installation
+
+Square is distributed through GitHub Releases.
+
+Because the current Obsidian Community Plugins rules require listed plugins to be open source, Square is not listed in the official plugin store in this release.
+
+### Recommended: Install With BRAT
+
+1. Install `BRAT` from Obsidian's community plugins.
 2. Open BRAT settings and choose `Add Beta plugin`.
-3. Add `https://github.com/jiaoyingxing/square`.
-4. Let BRAT install the latest release, then enable `Square` in Obsidian's community plugins settings.
+3. Add this repository URL:
 
-Manual install is also available:
+```text
+https://github.com/jiaoyingxing/square
+```
+
+4. Let BRAT install the latest release.
+5. Enable `Square` in Obsidian's community plugins settings.
+
+BRAT is the recommended path because it can help you update from GitHub Releases without manually replacing files each time.
+
+### Manual Install
 
 1. Download `main.js`, `manifest.json`, and `styles.css` from the latest GitHub Release.
-2. Put them into your vault at `.obsidian/plugins/square/`.
-3. Restart Obsidian or reload plugins.
-4. Enable `Square` in Obsidian's community plugins settings.
+2. Create this folder in your vault:
 
-## Release Notes
+```text
+.obsidian/plugins/square/
+```
+
+3. Put the three downloaded files into that folder.
+4. Restart Obsidian, or reload community plugins.
+5. Enable `Square` in Obsidian settings.
+
+Do not use GitHub's auto-generated source archive as the install package. Use the release assets instead.
+
+## Current Public Build
 
 The current public version is `0.1.0`.
 
-This version focuses on the core daily loop: create projects, choose templates, record quickly, review progress, and keep the underlying records in plain Markdown notes.
+This first public build focuses on the main daily loop: create projects, choose templates, check in quickly, review progress, and keep records in Markdown notes.
 
-See [RELEASE_NOTES.md](RELEASE_NOTES.md) for the full release notes.
-
-## Repository Contents
-
-- `main.js`: compiled plugin file
-- `manifest.json`: Obsidian plugin manifest
-- `styles.css`: plugin styles
-- `versions.json`: Obsidian compatibility map
+See the [GitHub Releases](https://github.com/jiaoyingxing/square/releases) page for published builds.
 
 ## License
 
