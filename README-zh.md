@@ -18,7 +18,18 @@ Square 小方块是一个轻量的 Obsidian 打卡插件。
 
 ## 安装
 
-1. 下载本仓库里的 `main.js`、`manifest.json` 和 `styles.css`。
+Square 小方块是专有软件。由于 Obsidian 官方插件商店的新规则不支持非开源插件上架，所以 Square 通过 GitHub Releases 分发。
+
+推荐用 BRAT 安装和更新：
+
+1. 先从 Obsidian 第三方插件里安装 `BRAT`。
+2. 打开 BRAT 设置，选择 `Add Beta plugin`。
+3. 填入 `https://github.com/jiaoyingxing/square`。
+4. 让 BRAT 安装最新 release，然后在 Obsidian 第三方插件设置中启用 `Square`。
+
+也可以手动安装：
+
+1. 从最新 GitHub Release 下载 `main.js`、`manifest.json` 和 `styles.css`。
 2. 放入你的 Obsidian 笔记库目录：`.obsidian/plugins/square/`。
 3. 重启 Obsidian，或重新加载插件。
 4. 在 Obsidian 第三方插件设置中启用 `Square`。

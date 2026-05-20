@@ -18,7 +18,18 @@ If you want daily check-ins, recurring projects, and target tracking to stay ins
 
 ## Install
 
-1. Download `main.js`, `manifest.json`, and `styles.css` from this repository.
+Square is proprietary software. Under the current Obsidian Community Plugins rules, non-open-source plugins cannot be listed in the official plugin store, so Square is distributed through GitHub Releases.
+
+Recommended: install with BRAT.
+
+1. Install the `BRAT` plugin from Obsidian's community plugins.
+2. Open BRAT settings and choose `Add Beta plugin`.
+3. Add `https://github.com/jiaoyingxing/square`.
+4. Let BRAT install the latest release, then enable `Square` in Obsidian's community plugins settings.
+
+Manual install is also available:
+
+1. Download `main.js`, `manifest.json`, and `styles.css` from the latest GitHub Release.
 2. Put them into your vault at `.obsidian/plugins/square/`.
 3. Restart Obsidian or reload plugins.
 4. Enable `Square` in Obsidian's community plugins settings.
