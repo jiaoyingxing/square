@@ -2,8 +2,12 @@ data.json
 .env
 .env.*
 AGENTS.md
+README-zh.md
 RELEASE_NOTES.md
 RELEASE_NOTES-zh.md
+ReleaseNotes.md
+ReleaseNotes-zh.md
+release-notes/
 node_modules/
 src/
 scripts/
