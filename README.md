@@ -1,119 +1,119 @@
 <p align="center">
-  <strong>Language:</strong> <strong>English</strong> · <a href="./README-zh.md"><strong>简体中文</strong></a>
+  <strong>语言：</strong><a href="./README-en.md"><strong>English</strong></a> · <strong>简体中文</strong>
 </p>
 
-# Square
+# Square 小方块
 
-> Turn daily actions in Obsidian into small blocks you can see and tap.
+> 把 Obsidian 里的日常行动，变成每天看得见、点得到的小方块。
 
-Many people keep goals, reviews, journals, and project notes in Obsidian, but still use another app when it is time to check in.
+很多人会把目标、复盘、日记和项目记录放在 Obsidian 里，但真正开始打卡时，又不得不打开另一个 App。
 
-Square is built for that gap. You do not have to leave your vault, and you do not have to move habit records into another system. The things you want to continue appear as small blocks on a lightweight board. You open one, record what happened, and the result still goes back to ordinary Markdown notes.
+Square 小方块想解决的就是这段断裂：你不需要离开笔记库，也不需要把习惯记录交给另一套系统。每天要做的事会出现在一个轻量的小方块主界面里；你点开它，写下这次做了什么；记录仍然回到普通 Markdown 笔记里。
 
-Square is not mainly about reminders, pressure, points, or a habit community. It is closer to a light operating surface on top of Obsidian: a way to make your daily actions easier to see, easier to record, and easier to review without pulling them away from your notes.
+Square 的重点不是提醒你、监督你、给你积分，或者让你加入一个打卡社区。它更像是 Obsidian 上方的一层轻操作界面：让那些本来就属于你笔记库的日常行动，变得更容易看见、更容易记录，也更容易回看。
 
-## ✨ What It Solves
+## ✨ 它在解决什么
 
-A task list is useful for planning, but it is not always the best shape for repeated daily records.
+任务列表适合安排事情，但它不一定适合“每天重复记录一件事”。
 
-A typical habit app is quick to tap, but it often moves your history into another account, another database, and another interface.
+普通打卡软件适合快速点一下，但它往往会把记录带到另一个账号、另一个数据库、另一个界面里。
 
-Square sits between those two. It keeps the file-based, long-term control of Obsidian, while adding a more visual daily entry point. You do not have to open a specific note and find the right place to write. You also do not have to manage a heavy habit dashboard. Open Square, see the blocks, record once, and move on.
+Square 站在这两者中间。它保留 Obsidian 的文件感和长期可控性，同时补上一个更直观的日常入口。你不需要每天翻到某篇笔记里找记录位置，也不需要为了一个简单打卡动作打开厚重后台。打开 Square，看见方块，记录一下，然后继续做自己的事。
 
-## 🧩 What It Really Is
+## 🧩 它的本质
 
-Square is not “another habit app”. It is a visual layer for Markdown project notes.
+Square 不是“又一个打卡 App”。它的本质是：给 Markdown 项目笔记加一层可视化入口。
 
-Each project is still a note. The small block is just the daily entry point for that note. You interact with the block, but the history accumulates in the project note. That means check-ins are not trapped inside a closed app state. They can continue to live beside your journal, reviews, project materials, and knowledge base.
+一个项目对应一篇笔记，小方块只是这篇笔记在日常界面上的入口。你看到的是方块，真正沉淀下来的是项目笔记里的历史记录。这样做的好处是，打卡不再只是一个封闭 App 里的状态，而是可以继续和你的日记、复盘、项目材料、知识库放在一起。
 
-Templates are not meant to turn Square into a configuration maze. They help each project start with the right recording shape. Some projects only need completion. Some need counts. Some need target progress. Some make more sense as long-term trends. Square tries to make that choice early, so the daily action can stay light.
+模板也不是为了制造复杂配置。它只是帮你更快进入合适的记录方式：有的项目只需要“今天完成了”，有的项目要记次数，有的项目要看目标进度，有的项目更适合观察长期趋势。Square 尽量把这些选择藏在开始时，让日常记录保持轻。
 
-## 🟩 What Daily Use Feels Like
+## 🟩 日常使用是什么样
 
-You can think of Square as a small today-board inside Obsidian.
+你可以把 Square 当成 Obsidian 里的一个小型今日面板。
 
-Open Square in the morning, or whenever you need to record something, and you see a group of project blocks. Each block represents something you are continuing or observing: reading, exercise, water, writing, vocabulary, recovery, sleep, piano practice, or any small routine that deserves a trace.
+早上或需要记录时，打开 Square，看到一组项目方块。每个方块代表一个你正在坚持或观察的项目，比如阅读、运动、喝水、写作、背单词、复健、睡眠、练琴，或者任何你希望持续留下痕迹的事情。
 
-Open a block and you get a quick record modal. For simple projects, it can be close to a single confirmation. When you need more detail, you can add text, adjust the date, change the count, fill fixed fields, or attach something. After saving, the record is written back to the matching Markdown project note.
+点开一个方块，会出现一个快速记录弹窗。简单的时候，你只需要确认一次；需要补充时，可以写记录、改日期、调次数、填固定字段或加附件。保存后，记录会写回对应的 Markdown 项目笔记。
 
-When you want to look back, open the week, month, or ranking view. Charts are not the main workload. They are a second layer for review.
+等你想回看时，再打开周视图、月视图或排行视图。图表不是主界面的负担，它更像是复盘时才出现的第二层视角。
 
-## 🌱 How It Differs From A Typical Habit App
+## 🌱 它和一般打卡软件有什么不一样
 
-Most habit apps put streaks at the center: reminders, make-up check-ins, consecutive days, leaderboards, badges, social pressure, and cloud sync.
+一般打卡软件通常把“连续打卡”放在最中心：提醒、补签、连续天数、排行榜、勋章、社交监督、云端同步。
 
-Square centers something else: can your daily records stay naturally inside Obsidian?
+Square 的中心不是这些。它更在意一件事：你的日常记录是否能自然留在 Obsidian 里。
 
-That changes the product shape. The main board stays light instead of becoming a management backend. A record can be more than a checkmark: it can include counts, text, fixed fields, and attachments. Overview charts are for review, not for taking over the daily board. Archiving simply moves projects out of the active daily view; it does not become a separate management product.
+所以它的取舍会不一样。主界面尽量轻，不把日常操作做成后台管理；记录不只是勾选，也可以包含次数、文字、固定字段和附件；总览图表用于回看，不抢走主界面的注意力；项目可以归档，但归档只是把它移出日常视野，不是建立一套复杂管理系统。
 
-If you need strong reminders, social check-ins, or a cloud habit community, Square is not that kind of product.
+如果你想要强提醒、社交打卡、云端习惯社区，Square 不是那类产品。
 
-If what you want is “my check-ins should belong to my vault”, Square is much closer to that idea.
+如果你想要的是“我的打卡本来就应该属于我的笔记库”，Square 更接近这个方向。
 
-## 🧭 Who It Is For
+## 🧭 适合谁
 
-Square is a better fit if your daily records, goals, or project reviews already live in Obsidian.
+Square 更适合已经把生活记录、目标推进或项目复盘放在 Obsidian 里的用户。
 
-If a task list feels too cold, but a separate habit app feels too far away from your notes, Square offers a middle shape: more visual than a task list, but more file-friendly than a standalone habit tracker.
+如果你觉得任务列表太冷，普通打卡软件又太脱离自己的笔记，那么 Square 提供的是一个中间形态：它比任务列表更像一个可点的日常界面，又比独立打卡 App 更贴近你的 Markdown 数据。
 
-It is especially useful when you want to record not only whether something happened, but also how much happened, what you noticed, or what material belonged with that action.
+它尤其适合那些不只想知道“有没有做”，还想留下“做了多少、当时怎么想、附带了什么材料”的项目。
 
-## 🔐 License And Storage
+## 🔐 授权与存储
 
-Square is proprietary software.
+Square 小方块是专有软件。
 
-The free state is intended for trying the core flow with a small number of projects. A license key unlocks broader project use.
+未授权状态适合用少量项目试用核心流程。授权后可以解锁更完整的项目使用。
 
-License keys are stored through Obsidian's built-in secret storage and verified locally through signature validation. Square does not require a separate server-side account system for normal local use.
+授权密钥通过 Obsidian 内置密钥管理保存，并在本地完成签名验证。正常本地使用不需要额外的服务器账号系统。
 
-Project records are stored as Markdown notes in your Obsidian vault. Plugin settings stay in local Obsidian plugin data. Square currently contains no client-side telemetry.
+项目记录会保存为你 Obsidian 笔记库里的 Markdown 笔记。插件设置保存在本地 Obsidian 插件数据里。Square 目前不包含客户端遥测。
 
-Do not publish your `.obsidian/plugins/square/data.json`. It may contain local settings, license state, and legacy configuration data.
+不要公开你的 `.obsidian/plugins/square/data.json`。它可能包含本地设置、授权状态和历史配置数据。
 
-To get a license key, search for `焦应行` on Xiaohongshu.
+如需获取授权密钥，可以在小红书搜索 `焦应行`。
 
-## 📦 Installation
+## 📦 安装
 
-Square is distributed through GitHub Releases.
+Square 通过 GitHub Releases 分发。
 
-Because the current Obsidian Community Plugins rules require listed plugins to be open source, Square is not listed in the official plugin store in this release.
+由于当前 Obsidian 官方插件商店规则要求上架插件开源，Square 在这个版本不会上架官方插件商店。
 
-### Recommended: Install With BRAT
+### 推荐方式：用 BRAT 安装
 
-1. Install `BRAT` from Obsidian's community plugins.
-2. Open BRAT settings and choose `Add Beta plugin`.
-3. Add this repository URL:
+1. 先从 Obsidian 第三方插件里安装 `BRAT`。
+2. 打开 BRAT 设置，选择 `Add Beta plugin`。
+3. 填入这个仓库地址：
 
 ```text
 https://github.com/jiaoyingxing/square
 ```
 
-4. Let BRAT install the latest release.
-5. Enable `Square` in Obsidian's community plugins settings.
+4. 让 BRAT 安装最新 release。
+5. 在 Obsidian 第三方插件设置中启用 `Square`。
 
-BRAT is the recommended path because it can help you update from GitHub Releases without manually replacing files each time.
+推荐用 BRAT，是因为它后续可以帮你从 GitHub Releases 更新，不用每次手动替换文件。
 
-### Manual Install
+### 手动安装
 
-1. Download `main.js`, `manifest.json`, and `styles.css` from the latest GitHub Release.
-2. Create this folder in your vault:
+1. 从最新 GitHub Release 下载 `main.js`、`manifest.json` 和 `styles.css`。
+2. 在你的笔记库里创建这个目录：
 
 ```text
 .obsidian/plugins/square/
 ```
 
-3. Put the three downloaded files into that folder.
-4. Restart Obsidian, or reload community plugins.
-5. Enable `Square` in Obsidian settings.
+3. 把下载的三个文件放进去。
+4. 重启 Obsidian，或重新加载第三方插件。
+5. 在 Obsidian 设置中启用 `Square`。
 
-Do not use GitHub's auto-generated source archive as the install package. Use the release assets instead.
+不要把 GitHub 自动生成的源码压缩包当成安装包。请使用 Release assets 里的安装文件。
 
-## Current Public Build
+## 当前公开版本
 
-The current public version is `0.1.0`.
+当前公开版本是 `0.1.0`。
 
-See the [GitHub Releases](https://github.com/jiaoyingxing/square/releases) page for published builds.
+已发布版本请看 [GitHub Releases](https://github.com/jiaoyingxing/square/releases) 页面。
 
-## License
+## 授权
 
-Square is proprietary software. All rights reserved.
+Square 小方块为专有软件，保留所有权利。
