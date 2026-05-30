@@ -110,7 +110,7 @@ Do not use GitHub's auto-generated source archive as the install package. Use th
 
 ## Current Public Build
 
-The current public version is `0.1.0`.
+The current public version is `0.1.1`.
 
 See the [GitHub Releases](https://github.com/jiaoyingxing/square/releases) page for published builds.
 

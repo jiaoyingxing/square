@@ -1,3 +1,7 @@
+<p align="center">
+  <strong>语言：</strong> <strong>简体中文</strong> · <a href="./README-en.md"><strong>English</strong></a>
+</p>
+
 # Square 小方块
 
 在 Obsidian 里完成日常打卡。
